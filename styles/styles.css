@@ -7,7 +7,7 @@ body{
     background: rgb(245, 245, 245);
     margin:  20px 160px 0 160px ;
     font-family: "Fira Sans", serif;
-   /* padding: 80px 100px 80px 100px ; */
+   
 }
 nav>ul{
     display: flex;
@@ -43,8 +43,6 @@ align-items: center;
     justify-content: space-evenly;
    background: rgb(198, 228, 214);
    padding: 80px 100px 80px 100px;
-   /* margin:  0px  auto ;
-   /* padding: 80px 100px 80px 100px ;  */
    gap: 64px;
    margin-bottom: 80px;
    border-radius: 20px;
@@ -70,12 +68,11 @@ button{
 }
 .pillar-container{
     display: flex;
-    
     gap:30px ;
 }
 .pillar-heading{
     font-size: 40px;
-font-weight: 700;
+    font-weight: 700;
 }
 .pillar-1{
     border: 1px solid black;
@@ -91,7 +88,7 @@ font-weight: 700;
 
 }
 .box{
-    /* border: 2px solid blueviolet; */
+    
     padding: 32px 32px;
     margin: 12px 0;
     border-radius: 16px;
@@ -107,14 +104,22 @@ font-weight: 700;
 }
 .bg-1:hover{
    box-shadow: 5px 5px 5px 5px rgba(0, 117, 126, 0.507);
-   background-color:rgb(11, 207, 181) ;
+   background-color:rgb(11, 207, 178) ;
 }
 .bg-2{
     background-color:rgb(198, 228, 214) ;
 }
 .bg-2:hover{
     box-shadow: 5px 5px 5px 5px rgb(112, 79, 196);
-    background-color: rgb(118, 167, 198);
+    background-color: rgb(229, 0, 241);
+ }
+ .btn-2:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 900;
+    font-size: large;
+    text-transform: capitalize
  }
 .bg-3{
     background-color:rgb(247, 235, 207) ;
@@ -145,9 +150,9 @@ font-weight: 700;
     background-image:url("../assets/quote-bg.png") ;
     background-color:rgb(255, 255, 255) ;
     background-repeat: no-repeat;
- 
-    background-position-x: 50px;
-    background-position-y: 20px;
+    margin-top: 20px;
+    background-position-x: 31px;
+    background-position-y: 35px;
 }
 .satelite-section{
     margin-top: 20px;
@@ -183,10 +188,9 @@ margin-top: 20px;
   
     border-radius: 24px;
     width: 400px;
-    /* margin: 0 32px; */
+    
 }
 .satelite-container-2{
-   
     margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
@@ -204,39 +208,45 @@ font-weight: 700;
 }
 .model{
     border: 1px solid black;
-    padding: 20px;
-    border-radius: 16px;
+    padding: 20px 20px;
+    border-radius: 12px;
     margin: 0 auto;
     width: 200px;
-    height: 120px;
+    height: 50px;
     background-color: aliceblue;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    
     
 }
 .model:hover {
     background-color: rgb(69, 168, 165);
     font-weight: 900;
-    box-shadow: 5px 4px 5px 2px palevioletred
+    box-shadow: 5px 4px 5px 2px palevioletred;
+   font-size: 65px;
     
   };
-.model>p{
+
+.model > p{
     font-size: 60px;
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 .model-container{
     display: flex;
-    gap: 24px;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .input-1{
-    padding: 20px 40px 20px 40px;
-    width:800px;
-    margin-top: 20px; 
+    padding: 12px 20px 12px 20px;
+    width: 900px;
+    height: 20px;
+    margin-top: 80px;
     text-align: center;
-    margin-bottom: 10px;
-}
+    margin-bottom: 20px;
+    border-right: 1px;
+    border-radius: 8px 8px 8px 8px;
+    }
 .subscribe-section{
     background-color: rgb(198, 228, 214);
     padding: 60px 80px;
@@ -260,21 +270,14 @@ margin-bottom: 16px;
 }
 .email-section> button{
   width: 200px;
-  
-  /* margin-left: 0;
-  border-left: 0; */
   border-radius: 0px 8px 8px 0px;
   position: absolute;
   border: 0px solid white;
  
 }
-button :hover{
- animation: backwards;
- animation-fill-mode: forwards;
- animation-duration: 2s;
-}
+
 input{
-    /* margin-right: 0; */
+ 
     width: 500px;
     height:50px;
     border-radius: 12px 0px 0px 12px;
@@ -307,4 +310,13 @@ input{
     border-color: aliceblue
     ;
     color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(181, 64, 196);
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 900;
+    font-size: large;-
+    text-transform: capitalize;
+  
 }
