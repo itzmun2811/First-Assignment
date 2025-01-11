@@ -120,3 +120,44 @@ font-weight: 700;
 .satelite{
     margin-top: 20px;
 }
+.donate-section{
+    text-align: center;
+    justify-content: center;
+}
+.donate-section>h1{
+    font-size: 40px;
+font-weight: 700;
+}
+.model{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 200px;
+    height: 120px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.model:hover {
+    background-color: rgb(69, 168, 165);
+    font-weight: 900
+    
+  };
+.model>p{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.model-container{
+    display: flex;
+    gap: 24px;
+}
+input{
+    padding: 20px 40px 20px 40px;
+    width:1000px;
+    margin-top: 20px; 
+    text-align: center;
+}
