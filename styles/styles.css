@@ -47,6 +47,7 @@ align-items: center;
    /* padding: 80px 100px 80px 100px ;  */
    gap: 64px;
    margin-bottom: 80px;
+   border-radius: 20px;
 }
 .banner-content{
     text-align: left;
@@ -182,9 +183,10 @@ font-weight: 700;
 }
 .input-1{
     padding: 20px 40px 20px 40px;
-    width:1000px;
+    width:800px;
     margin-top: 20px; 
     text-align: center;
+    margin-bottom: 10px;
 }
 .subscribe-section{
     background-color: rgb(198, 228, 214);
@@ -217,10 +219,15 @@ margin-bottom: 16px;
   border: 0px solid white;
  
 }
+button :hover{
+ animation: backwards;
+ animation-fill-mode: forwards;
+ animation-duration: 2s;
+}
 input{
     /* margin-right: 0; */
     width: 500px;
-    height: 50px;
+    height:50px;
     border-radius: 12px 0px 0px 12px;
     border-right:0 ;
     position: relative;
